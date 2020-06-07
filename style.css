@@ -1,0 +1,53 @@
+body {
+    background: url("https://image.freepik.com/free-vector/abstract-hand-painted-background-with-cool-colors_23-2148293331.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
+#counter {
+    text-align: center;
+    position: relative;
+    color: whitesmoke;
+    margin-top: 150px;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#number {
+    text-align: center;
+    position: relative;
+    color: whitesmoke;
+    margin-top: -50px;
+    font-size: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.button {
+    padding: 15px;
+    background-color: transparent;
+    outline: none;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#decrease {
+    margin: 0;
+    position: absolute;
+    top: 68%;
+    left: 40%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#increase {
+    margin: 0;
+    position: absolute;
+    top: 68%;
+    left: 60%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
