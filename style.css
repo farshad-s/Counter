@@ -3,6 +3,8 @@ body {
     background-size: cover;
     height: 100%;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
 #counter {
@@ -23,6 +25,14 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
+.button-holder {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: -10%;
+}
+
 .button {
     padding: 15px;
     background-color: transparent;
@@ -33,6 +43,15 @@ body {
     cursor: pointer;
 }
 
+@media screen and (max-width: 1080px) {
+    .button-holder {
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: -31%;
+    }
+}
+
+/*
 #decrease {
     margin: 0;
     position: absolute;
@@ -50,4 +69,4 @@ body {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
-
+*/
