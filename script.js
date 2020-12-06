@@ -5,6 +5,11 @@ const increase = document.getElementById("increase");
 function increaseNum() {
   increase.addEventListener("click", function () {
     number.innerHTML++;
+    if (number.innerHTML > 0) {
+      number.style.color = "green";
+    } else if (number.innerHTML == 0) {
+      number.style.color = "whitesmoke";
+    } else number.style.color = "red";
   });
 }
 
