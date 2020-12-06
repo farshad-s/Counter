@@ -1,52 +1,53 @@
 body {
-    background: url("https://image.freepik.com/free-vector/abstract-hand-painted-background-with-cool-colors_23-2148293331.jpg") no-repeat center center fixed;
-    background-size: cover;
-    height: 100%;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
+  background: url("https://image.freepik.com/free-vector/abstract-hand-painted-background-with-cool-colors_23-2148293331.jpg")
+    no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 #counter {
-    text-align: center;
-    position: relative;
-    color: whitesmoke;
-    margin-top: 150px;
-    font-size: 50px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  position: relative;
+  color: whitesmoke;
+  margin-top: 150px;
+  font-size: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #number {
-    text-align: center;
-    position: relative;
-    color: whitesmoke;
-    margin-top: -50px;
-    font-size: 200px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+  text-align: center;
+  position: relative;
+  color: whitesmoke;
+  margin-top: -50px;
+  font-size: 200px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .button-holder {
-    display: flex;
-    justify-content: space-evenly;
-    margin-left: 30%;
-    margin-right: 30%;
-    margin-top: -10%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: -10%;
 }
 
 .button {
-    padding: 15px;
-    background-color: transparent;
-    outline: none;
-    color: whitesmoke;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 30px;
-    cursor: pointer;
+  padding: 15px;
+  background-color: transparent;
+  outline: none;
+  color: whitesmoke;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 1080px) {
-    .button-holder {
-        margin-left: 0%;
-        margin-right: 0%;
-        margin-top: -31%;
-    }
+  .button-holder {
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: -31%;
+  }
 }
