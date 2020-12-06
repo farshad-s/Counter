@@ -6,7 +6,7 @@ function increaseNum() {
   increase.addEventListener("click", function () {
     number.innerHTML++;
     if (number.innerHTML > 0) {
-      number.style.color = "green";
+      number.style.color = "lightgreen";
     } else if (number.innerHTML == 0) {
       number.style.color = "whitesmoke";
     } else number.style.color = "red";
@@ -20,7 +20,7 @@ function decreaseNum() {
       number.style.color = "red";
     } else if (number.innerHTML == 0) {
       number.style.color = "whitesmoke";
-    } else number.style.color = "green";
+    } else number.style.color = "lightgreen";
   });
 }
 
